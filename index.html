@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <form class="form">
+        <p class="heading"><img src="img/libro.webp" alt="libro"><br>Añadir libro</p>
+        <input placeholder="Titulo" class="input" type="text" id="Titulo">
+        <input placeholder="Genero" class="input" type="text" id="Genero">
+        <input placeholder="Autor" class="input" type="text" id="Autor">
+        <button class="btn" id="añadir" type="button">Añadir</button>
+        <p id="error">Debes rellenar todos los campos</p>
+    </form>
+    <section id="libros">
+        <img src="img/actualizar.png" alt="actualizar" id="actualizar">
+        <p id="actual"></p>
+        <img src="img/flechaIzq.png" alt="Flecha Izquierda" id="flechaIzq">
+        <img src="img/flechaDer.png" alt="Flecha Derecha" id="flechaDer">
+        <button class="btn" id="leer">Leer</button>
+        <button class="btn" id="seleccionar">Seleccionar como actual</button>
+        <p id="fecha">&nbsp;</p>
+        <div id="libro"></div>
+        <p id="leidos"></p>
+        <p id="sinleer"></p>
+    </section>
+</body>
+</html>

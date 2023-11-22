@@ -1,0 +1,190 @@
+html {
+    background-image: url("../img/fondo.jpg");
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 2.8em;
+    padding-right: 2.8em;
+    padding-bottom: 2.1em;
+    border: 2px dashed #5b2e07;
+    border-radius: 15px;
+    background-color: #EADDCA;
+    box-shadow: 0 0 0 4px #EADDCA, 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+    transition: .4s ease-in-out;
+    width: fit-content;
+    position: absolute;
+    left: 200px;
+    top: 120px;
+  }
+  
+  ::placeholder {
+    color: #5b2e07;
+    text-align: center;
+  }
+  
+  .form .heading {
+    padding-left: 0.8em;
+    color: #5b2e07;
+    background-color: transparent;
+    letter-spacing: .2em;
+    text-align: center;
+    padding-top: 1em;
+    font-size: 150%;
+    text-shadow: inset -1px -1px 1px #DAA06D;
+  }
+  
+  .form .input {
+    outline: none;
+    padding: 0.5em;
+    border: 1px solid #5b2e07;
+    color: #5b2e07;
+    width: 14em;
+    height: 3em;
+    border-radius: 10px;
+    background-color: #EADDCA;
+    text-align: center;
+  }
+  
+  .btn {
+    align-self: center;
+    margin-top: 2em;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #5b2e07;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    transition: .4s ease-in-out opacity,.1s ease-in-out active;
+    padding: 1em;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
+  .btn:active {
+    transform: translateX(0.1em) translateY(0.1em);
+    box-shadow: none;
+  }
+
+  .form img{
+    width: 80px;
+    margin-bottom: 20px;
+  }
+
+  #libros {
+    background-color: antiquewhite;
+    width: 500px;
+    height: 430px;
+    margin-left: 700px;
+    margin-top: 120px;
+    padding: 50px;
+    border: 2px dashed #5b2e07;
+    border-radius: 15px;
+    background-color: #EADDCA;
+    box-shadow: 0 0 0 4px #EADDCA, 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+    transition: .4s ease-in-out;
+  }
+
+  #actualizar{
+    position: absolute;
+    width: 50px;
+    left: 80%;
+    top: 20%;
+  }
+
+  #libro{
+    background-image: url(../img/portadaLibro.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    padding-left: 0px;
+    margin-top: 20%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  #flechaIzq{
+    width: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+  }
+
+  #flechaDer{
+    width: 30px;
+    position: absolute;
+    left: 75%;
+    top: 50%;
+  }
+
+  #leer{
+    position: absolute;
+    left: 57%;
+    width: 200px;
+  }
+
+  #seleccionar{
+    position: absolute;
+    left: 57%;
+    width: 200px;
+  }
+  #fecha{
+    position: absolute;
+    left: 58%;
+    width: 200px;
+    color: #5b2e07;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 200%;
+  }
+
+  #error{
+    position: absolute;
+    left: 20%;
+    top: 78%;
+    width: 200px;
+    color: #ff0000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80%;
+  }
+
+  #leidos{
+    position: absolute;
+    left: 73%;
+    top: 85%;
+    width: 200px;
+    color: #5b2e07;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80%;
+  }
+  #sinleer{
+    position: absolute;
+    left: 78%;
+    top: 85%;
+    width: 200px;
+    color: #5b2e07;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80%;
+  }
+
+  #actual{
+    position: absolute;
+    left: 80.5%;
+    top: 25.5%;
+    width: 200px;
+    color: #5b2e07;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80%;
+  }
